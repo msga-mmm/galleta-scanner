@@ -1,0 +1,35 @@
+name: Android Build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validation:
+    uses: ./.github/workflows/validation.yml
+
+  build-android:
+    runs-on: ubuntu-latest
+    needs: validation
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Build debug APK
+        run: ./gradlew :composeApp:assembleDebug
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-debug-apk
+          path: composeApp/build/outputs/apk/debug/*.apk
