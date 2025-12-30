@@ -1,0 +1,19 @@
+build:
+  maxIssues: 0
+
+config:
+  validation: true
+
+naming:
+  FunctionNaming:
+    active: true
+    ignoreAnnotated:
+      - Composable
+
+style:
+  MagicNumber:
+    active: false
+
+complexity:
+  LongMethod:
+    threshold: 80

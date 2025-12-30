@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Galleta Scanner</string>
+    <string name="scan_title">Escanea un documento</string>
+    <string name="scan_button">Escanear documento</string>
+    <string name="scan_cancelled">Escaneo cancelado.</string>
+    <string name="no_scanned_pages">No hay paginas escaneadas.</string>
+    <string name="unable_load_scanned_image">No se pudo cargar la imagen escaneada.</string>
+    <string name="unable_start_scanner">No se pudo iniciar el escaner.</string>
+    <string name="scanned_preview_desc">Vista previa del escaneo</string>
+    <string name="no_scan_yet">Aun no hay escaneos.</string>
+    <string name="error_with_details">Error:\n%1$s</string>
+    <string name="unexpected_error">Error inesperado.</string>
+    <string name="share_pdf_button">Compartir documento</string>
+    <string name="pdf_create_failed">No se pudo crear el PDF.</string>
+    <string name="unable_start_share">No se pudo iniciar el compartir.</string>
+    <string name="share_pdf_chooser">Compartir documento</string>
+</resources>

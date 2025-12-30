@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Galleta Scanner</string>
+    <string name="scan_title">Scan a document</string>
+    <string name="scan_button">Scan Document</string>
+    <string name="scan_cancelled">Scan cancelled.</string>
+    <string name="no_scanned_pages">No scanned pages.</string>
+    <string name="unable_load_scanned_image">Unable to load scanned image.</string>
+    <string name="unable_start_scanner">Unable to start scanner.</string>
+    <string name="scanned_preview_desc">Scanned preview</string>
+    <string name="no_scan_yet">No scan yet.</string>
+    <string name="error_with_details">Error:\n%1$s</string>
+    <string name="unexpected_error">Unexpected error.</string>
+    <string name="share_pdf_button">Share document</string>
+    <string name="pdf_create_failed">Unable to create PDF.</string>
+    <string name="unable_start_share">Unable to start sharing.</string>
+    <string name="share_pdf_chooser">Share document</string>
+</resources>

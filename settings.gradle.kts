@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "hello-kmp"
+rootProject.name = "galleta-scanner"
 
 include(":composeApp")
 
